@@ -2,7 +2,6 @@
 
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { GlobeDemo } from "./GridGlobe";
 import MagicButton from "./MagicButton";
 import Lottie from "react-lottie";
 import { useState } from "react";
@@ -69,7 +68,7 @@ export const BentoGridItem = ({
       }}
     >
 
-      <div className={`${id === 6 && 'flex justify-center'} h-full`}>
+      <div className={`${id === 3 && 'flex justify-center'} h-full`}>
 
         <div className="w-full h-full absolute">
           {img && (
@@ -84,7 +83,7 @@ export const BentoGridItem = ({
           )}
         </div>
 
-        <div className={`absolute right-0 -bottom-5 ${id === 5 && 'w-full opacity-80'}`}>
+        <div className={`absolute right-0 -bottom-5 ${id === 4 && 'w-full opacity-80'}`}>
           {spareImg && (
             <img
               src={spareImg}
@@ -94,7 +93,7 @@ export const BentoGridItem = ({
           )}
         </div>
 
-        {id === 6 && (
+        {id === 3 && (
           <BackgroundGradientAnimation>
           </BackgroundGradientAnimation>
         )}
@@ -110,9 +109,7 @@ export const BentoGridItem = ({
           </div>
 
 
-          {id === 2 && <GlobeDemo />}
-
-          {id === 3 && (
+          {id === 2 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-5">
                 {['JavaScript', 'TypeScript', 'React.js', 'Next.js'].map
@@ -140,7 +137,7 @@ export const BentoGridItem = ({
             </div>
           )}
 
-          {id === 6 && (
+          {id === 3 && (
             <div className="mt-5 relative">
               <div className={`absolute -bottom-5 -right-0`}>
                 <Lottie options={{
