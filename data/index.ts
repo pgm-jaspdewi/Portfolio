@@ -64,8 +64,8 @@ export const projects = [
     des: "A portfolio website to showcase my projects. Made with Next.js and TailwindCSS.",
     img: "/p2.png",
     iconLists: ["/next.svg", "/ts.svg", "/tail.svg"],
-    link: "https://pgmgent-atwork-1.github.io/atwork-1-project-2-pgm-jaspdewi/",
-    linkText: "Check Live Site",
+    link: "https://github.com/pgm-jaspdewi/portfolio",
+    linkText: "View code on Github",
   },
   {
     id: 3,
