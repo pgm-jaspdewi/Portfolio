@@ -23,7 +23,7 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p> */}
-        <a href="mailto:dewilde.jasper@hotmail.be">
+        <a href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
