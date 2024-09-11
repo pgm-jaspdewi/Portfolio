@@ -29,7 +29,7 @@ const Hero = () => {
           />
 
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-            A web developer based in Dendermonde, East Flanders.
+            A full-stack developer based in Dendermonde, East Flanders.
           </p>
 
           <a href="#projects">
